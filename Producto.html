@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Franco Store</title>
+    <link  rel="stylesheet" href="CSS/Normalize.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="./CSS/Styles.css" >
+</head>
+<body>
+    <header class="header">
+        <a href="Index.html"> 
+            <img class="header__logo" src="./img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="Index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="Nosotros.html">Nosotros</a>
+    </nav>
+    
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="./img/3.jpg" alt="imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>
+                    ¡Descubre la camiseta perfecta para cada momento!
+                    Nuestra colección de remeras está diseñada para ofrecerte comodidad y estilo en cada ocasión. Ya sea que estés buscando un look casual para el día a día, o una prenda original que hable de tu personalidad, aquí encontrarás la opción ideal. 
+                </p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>----Seleccionar Talla----</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados</p>
+    </footer>
+</body>
