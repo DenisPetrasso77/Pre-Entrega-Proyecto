@@ -154,10 +154,10 @@ background-size: cover;
 .grafico--camisas {
  grid-row: 2 / 3;
  
- background-image: url(/img/grafico1.jpg);
+ background-image: url(../img/grafico1.jpg);
 }
 .grafico--node {
-  background-image: url(/img/grafico2.jpg);
+  background-image: url(../img/grafico2.jpg);
  
   grid-row: 8 / 9;
 }
